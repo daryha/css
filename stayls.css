@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+body{
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  font: normal 13px 'Rboto', sans-serif;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 15px 12px 17px rgb(0 0 0 / 27%)
+}
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+@media (max-width: 700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.infow{
+    margin-left: 40px;
+}
+
+.infow h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+color: #86898f;
+margin: 0;
+font-style:italic;
+font-weight:bold;
+text-decoration:underline;
+
+}
+
+
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* cсылки */
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+a:visited{
+    color: gray;
+}
+
+/* asdasd */
+
+.bg-yellow{
+    background:#fff9dc;
+}
+
+.bg-green{
+    background:#e5FFE7;
+}
+
+
+.bg-red{
+    background: #FFe5e5;
+}
+
+/* asd */
+
+
+.card{
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px; 
+}
+
+
+.table td:nth-child(1) {
+    color: #000000;
+}
+
+
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: gray;
+}
+
+.video{
+    list-style: none;
+    padding: 0;
+}
+.video li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-style: 14px;
+    color: #86898f;
+}
+
+
+.form-group input,
+.form-group  textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+.btn {
+    background: #000000;
+    padding: 15px 20px;
+    color:white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* position */
+
+/* .position{
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 300px;
+
+}
+
+.box {
+    position: fixed;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background: lightcoral;
+} */
